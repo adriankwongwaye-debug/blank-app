@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from transformers import pipeline
 import google.generativeai as genai
 
 # Step 1: Configure your API key
@@ -25,3 +24,4 @@ def ai_assistant():
 
 # Run the assistant
 ai_assistant()
+
